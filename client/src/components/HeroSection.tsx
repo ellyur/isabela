@@ -1,6 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
 import { useState } from 'react';
-import heroImage from '@assets/12_1760522061653.jpg';
+import heroVideo from '@assets/1st Section_1760528392140.mov';
 import { useAnimationContext } from '@/contexts/AnimationContext';
 
 const HeroSection = () => {
@@ -10,14 +10,18 @@ const HeroSection = () => {
   return (
     <section 
       className="hero-section relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
-      style={{
-        backgroundImage: `url(${heroImage})`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'scroll'
-      }}
     >
+      {/* Video Background */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+        style={{ objectPosition: 'center' }}
+      >
+        <source src={heroVideo} type="video/mp4" />
+      </video>
       {/* Cinematic gradient overlay for better text readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70"></div>
       {/* Content */}

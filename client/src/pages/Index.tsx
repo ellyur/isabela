@@ -23,6 +23,7 @@ import CoverSection from '@/components/CoverSection';
 import InvitationRevealSection from '@/components/InvitationRevealSection';
 import MusicControl from '@/components/MusicControl';
 import { AnimationContext } from '@/contexts/AnimationContext';
+import heroImage from '@assets/12_1760522061653.jpg';
 
 const Index = () => {
   const audioRef = useRef<HTMLAudioElement>(null);
@@ -104,8 +105,8 @@ const Index = () => {
         {/* Main Content Sections */}
         <main className="relative z-10">
           <CoverSection
-            imageUrl={cover1Image}
-            alt="Andrei & Sam Wedding Cover Image 1"
+            imageUrl={heroImage}
+            alt="Isabel & Rustin Wedding Cover Image 1"
           />
           <HeroSection />
           <InvitationRevealSection />
