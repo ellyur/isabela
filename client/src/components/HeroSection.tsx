@@ -65,15 +65,15 @@ const HeroSection = () => {
             <div className="space-y-3">
               <div className="text-center">
                 <p className="text-lg sm:text-xl text-white font-light tracking-wide font-times" data-testid="text-date">
-                  01.31.2026 | Friday
+                  01.31.2026 | Saturday
                 </p>
               </div>
               <div className="text-center">
                 <p className="text-lg sm:text-xl text-white font-light tracking-wide font-times" data-testid="text-venue">
-                  Casa Dominguez
+                  Parish of the Holy Family
                 </p>
                 <p className="text-base sm:text-lg text-white font-light tracking-wide font-times">
-                  Imus, Cavite
+                  Casa Dominguez
                 </p>
               </div>
             </div>

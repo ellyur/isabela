@@ -11,12 +11,12 @@ const VenueSection = () => {
   const venues = [
     {
       title: 'Ceremony',
-      name: 'Holy Family Parish Church',
+      name: 'Parish of the Holy Family',
       address: 'Imus, Cavite',
       image: ceremonyImage,
       mapUrl: 'https://maps.app.goo.gl/9wZ7WhKAviVYcMP78',
-      mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Holy+Family+Parish+Church,Imus+Cavite&zoom=15',
-      description: 'Join us at the Holy Family Parish Church for our sacred wedding ceremony. This beautiful church will witness our vows of eternal love as we begin our journey together.',
+      mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Parish+of+the+Holy+Family,Imus+Cavite&zoom=15',
+      description: 'Join us at the Parish of the Holy Family for our sacred wedding ceremony. This beautiful church will witness our vows of eternal love as we begin our journey together.',
       details: 'The ceremony begins promptly at 2:00 PM. Please arrive early to be seated. Dress code: Black Formal Attire.',
       startTime: '2:00 PM'
     },
