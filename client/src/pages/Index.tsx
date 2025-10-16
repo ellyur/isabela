@@ -5,7 +5,7 @@ import HeroSection from '@/components/HeroSection';
 import ImageLoop from '@/components/ImageLoop';
 import MusicConsentPopup from '@/components/MusicConsentPopup';
 // Cover images and video from attached assets
-import cover1Image from '@assets/1st Section_1760528392140.mov';
+import cover1Image from '@assets/12_1760522061653.jpg';
 import cover2Image from '@assets/4_1760528397483.jpg';
 import cover3Image from '@assets/5_1760528397485.jpg';
 import CountdownSection from '@/components/CountdownSection';
