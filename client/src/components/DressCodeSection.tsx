@@ -149,9 +149,7 @@ const DressCodeSection = () => {
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
                 <div>
-                  <h4 className="text-base font-display font-semibold text-foreground mb-2">
-                    Guests: Formal Dress
-                  </h4>
+                  <h4 className="text-base font-display font-semibold text-foreground mb-2">Guests: Formal</h4>
                   <p className="text-sm text-foreground/70">No jeans, no shirts, no white dress for ladies.</p>
                 </div>
               </div>
@@ -167,6 +165,21 @@ const DressCodeSection = () => {
                   </h4>
                   <p className="text-sm text-foreground/70">
                     Avoid wearing white, as this color is reserved for the bride.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Respectful attire */}
+            <div className="bg-card/20 rounded-xl p-6">
+              <div className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
+                <div>
+                  <h4 className="text-base font-display font-semibold text-foreground mb-2">
+                    Respectful attire
+                  </h4>
+                  <p className="text-sm text-foreground/70">
+                    Kindly ensure your attire is respectful and appropriate for a religious ceremony.
                   </p>
                 </div>
               </div>
