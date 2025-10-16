@@ -17,6 +17,7 @@ const HeroSection = () => {
         loop
         muted
         playsInline
+        preload="auto"
         className="absolute inset-0 w-full h-full object-cover"
         style={{ objectPosition: 'center' }}
       >
@@ -85,7 +86,7 @@ const HeroSection = () => {
           
           {/* RSVP Button */}
           <div className={`transition-all duration-700 opacity-100 mt-[10px] mb-[10px] ${animationsEnabled ? 'animate-fade-scale' : ''}`}>
-            <a href="#rsvp">
+            <a href="https://rustin-isabel-rsvp.replit.app" target="_blank" rel="noopener noreferrer">
               <button
                 className="animated-rsvp-btn"
                 aria-label="RSVP to Wedding"
