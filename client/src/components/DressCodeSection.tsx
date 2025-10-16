@@ -135,7 +135,7 @@ const DressCodeSection = () => {
                 <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
                 <div>
                   <h4 className="text-base font-display font-semibold text-foreground mb-2">
-                    Ninong: Barong / Formal Coat & Slacks / Formal Attire<br />
+                    Ninong: Formal Coat & Slacks / Formal Attire<br />
                     Ninang: Formal Dress / Formal Attire
                   </h4>
                   <p className="text-sm text-foreground/70">
