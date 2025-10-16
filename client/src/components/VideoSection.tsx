@@ -68,6 +68,8 @@ const VideoSection = () => {
           preload="metadata"
           webkit-playsinline="true"
           x5-playsinline="true"
+          x-webkit-airplay="allow"
+          controlsList="nodownload"
           style={{
             display: 'block',
             width: '100%',

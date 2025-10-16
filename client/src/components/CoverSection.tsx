@@ -21,6 +21,8 @@ const CoverSection = ({ imageUrl, alt, className = "" }: CoverSectionProps) => {
             preload="auto"
             webkit-playsinline="true"
             x5-playsinline="true"
+            x-webkit-airplay="allow"
+            controls={false}
             style={{
               display: 'block',
               width: '100%',
@@ -32,9 +34,24 @@ const CoverSection = ({ imageUrl, alt, className = "" }: CoverSectionProps) => {
             }}
             onLoadedMetadata={(e) => {
               const video = e.currentTarget;
+              // Force muted state
+              video.muted = true;
+              video.play().catch((error) => {
+                console.log('Autoplay prevented, will retry on user interaction:', error);
+              });
+            }}
+            onCanPlay={(e) => {
+              const video = e.currentTarget;
+              video.muted = true;
               video.play().catch(() => {
                 // Silently handle autoplay restrictions on mobile
               });
+            }}
+            onClick={(e) => {
+              const video = e.currentTarget;
+              if (video.paused) {
+                video.play();
+              }
             }}
             data-testid="cover-video"
           />
