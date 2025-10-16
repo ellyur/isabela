@@ -58,7 +58,7 @@ const HashtagGiftsSection = () => {
               We'd love to see the beautiful moments you capture on our special day!
               <br />
               <br />
-              Kindly mention us on your social media accounts when you share photos and videos from the celebration.
+              Kindly mention us on our social media accounts when you share photos and videos from the celebration.
             </p>
           </motion.div>
         </motion.div>
