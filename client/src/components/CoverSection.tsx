@@ -6,7 +6,7 @@ interface CoverSectionProps {
 
 const CoverSection = ({ imageUrl, alt, className = "" }: CoverSectionProps) => {
   const isVideo = imageUrl.match(/\.(mp4|mov|webm|ogg)$/i);
-  
+
   return (
     <section className={`relative w-full overflow-hidden ${className}`}>
       {/* Full Width Image/Video Container */}
@@ -30,9 +30,9 @@ const CoverSection = ({ imageUrl, alt, className = "" }: CoverSectionProps) => {
             data-testid="cover-video"
           />
         ) : (
-          <img 
+          <img
             src={imageUrl}
-            alt={alt}
+            alt="Isabel & Rustin Wedding Cover Image 2"
             style={{
               display: 'block',
               width: '100%',
