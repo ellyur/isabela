@@ -152,9 +152,7 @@ const DressCodeSection = () => {
                   <h4 className="text-base font-display font-semibold text-foreground mb-2">
                     Guests: Formal Dress
                   </h4>
-                  <p className="text-sm text-foreground/70">
-                    No jeans, no shirts, no white dress for ladies. Strictly formal attire.
-                  </p>
+                  <p className="text-sm text-foreground/70">No jeans, no shirts, no white dress for ladies.</p>
                 </div>
               </div>
             </div>
