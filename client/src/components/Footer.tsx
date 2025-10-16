@@ -24,7 +24,7 @@ const Footer = () => {
               <span className="text-primary mx-3">&</span>
               Rustin
             </h2>
-            <p className="text-foreground/80 text-base"> Parish of the Holy Family, Casa Dominguez</p>
+            <p className="text-foreground/80 text-base"> Parish of the Holy Family | Casa Dominguez</p>
           </div>
 
           {/* Heart Divider */}
