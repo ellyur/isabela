@@ -65,6 +65,9 @@ const VideoSection = () => {
           loop
           playsInline
           controls
+          preload="metadata"
+          webkit-playsinline="true"
+          x5-playsinline="true"
           style={{
             display: 'block',
             width: '100%',

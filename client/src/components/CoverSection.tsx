@@ -18,6 +18,9 @@ const CoverSection = ({ imageUrl, alt, className = "" }: CoverSectionProps) => {
             loop
             muted
             playsInline
+            preload="auto"
+            webkit-playsinline="true"
+            x5-playsinline="true"
             style={{
               display: 'block',
               width: '100%',
@@ -26,6 +29,12 @@ const CoverSection = ({ imageUrl, alt, className = "" }: CoverSectionProps) => {
               objectPosition: 'top',
               margin: 0,
               padding: 0
+            }}
+            onLoadedMetadata={(e) => {
+              const video = e.currentTarget;
+              video.play().catch(() => {
+                // Silently handle autoplay restrictions on mobile
+              });
             }}
             data-testid="cover-video"
           />
