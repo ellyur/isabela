@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
-import semiformalImage from "@assets/guests_1760540315165.png";
-import formalImage from "@assets/principal-sponsors_1760540315164.png";
+import guestsImage from "@assets/ad9b225f-bb28-4bb2-a530-6a53b54ee90a_1760596619082.png";
+import principalSponsorsImage from "@assets/Gemini_Generated_Image_gv3ykfgv3ykfgv3y_1760596115946.png";
 
 const DressCodeSection = () => {
   return (
@@ -23,20 +23,6 @@ const DressCodeSection = () => {
           <h2 className="font-display italic text-gold mb-8 text-[48px]" data-testid="text-dresscode-title">
             Attire Guide
           </h2>
-          <div className="bg-white/5 border border-primary/20 rounded-xl p-6 max-w-2xl mx-auto relative">
-            <div className="space-y-4">
-              <div>
-                <p className="text-2xl font-display font-bold text-foreground mb-4 text-center">
-                  Black Formal Attire
-                </p>
-                <p className="text-base text-foreground text-center leading-relaxed">
-                  No jeans, no shirts, no white dress for ladies.
-                  <br />
-                  Strictly formal attire.
-                </p>
-              </div>
-            </div>
-          </div>
         </motion.div>
 
         {/* Modern Dress Code Grid */}
@@ -68,7 +54,7 @@ const DressCodeSection = () => {
                   </div>
                 </motion.div>
                 <motion.img 
-                  src={formalImage}
+                  src={principalSponsorsImage}
                   alt="Principal Sponsors attire guide"
                   className="w-full max-w-md mx-auto object-contain rounded-2xl shadow-md group-hover:shadow-lg transition-shadow duration-300"
                   initial={{ opacity: 0, y: 20 }}
@@ -108,12 +94,12 @@ const DressCodeSection = () => {
                       FOR GUESTS
                     </h3>
                     <div className="inline-block px-4 py-2 bg-primary/10 rounded-full">
-                      <span className="text-sm font-normal text-foreground">SEMI-FORMAL ATTIRE</span>
+                      <span className="text-sm font-normal text-foreground">FORMAL ATTIRE</span>
                     </div>
                   </div>
                 </motion.div>
                 <motion.img 
-                  src={semiformalImage}
+                  src={guestsImage}
                   alt="Guests attire guide"
                   className="w-full max-w-md mx-auto object-contain rounded-2xl shadow-md group-hover:shadow-lg transition-shadow duration-300"
                   initial={{ opacity: 0, y: 20 }}
@@ -127,6 +113,16 @@ const DressCodeSection = () => {
                     <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#1a1a1a' }}></div>
                     <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#2d2d2d' }}></div>
                   </div>
+                </div>
+                <div className="mt-6 bg-white/5 border border-primary/20 rounded-xl p-6">
+                  <p className="text-lg font-display font-bold text-foreground mb-3 text-center">
+                    Black Formal Attire
+                  </p>
+                  <p className="text-sm text-foreground text-center leading-relaxed">
+                    No jeans, no shirts, no white dress for ladies.
+                    <br />
+                    Strictly formal attire.
+                  </p>
                 </div>
               </div>
             </div>
