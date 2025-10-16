@@ -129,6 +129,78 @@ const DressCodeSection = () => {
           </motion.div>
         </div>
 
+        {/* Additional Guidelines */}
+        <motion.div
+          className="bg-white/5 border border-primary/20 rounded-2xl p-8 max-w-5xl mx-auto"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 9.0 }}
+        >
+          <h3 className="text-2xl font-display text-foreground text-center mb-8">Additional Guidelines</h3>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Ninong/Ninang */}
+            <div className="bg-card/20 rounded-xl p-6">
+              <div className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
+                <div>
+                  <h4 className="text-base font-display font-semibold text-foreground mb-2">
+                    Ninong/Ninang: Barong / Formal Coat & Slacks / Formal Dress
+                  </h4>
+                  <p className="text-sm text-foreground/70">
+                    Please dress elegantly for this special occasion.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Guests */}
+            <div className="bg-card/20 rounded-xl p-6">
+              <div className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
+                <div>
+                  <h4 className="text-base font-display font-semibold text-foreground mb-2">
+                    Guests: Longsleeve / Polo / Formal Dress
+                  </h4>
+                  <p className="text-sm text-foreground/70">
+                    No jeans, no shirts, no white dress for ladies. Strictly formal attire.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* No white colors */}
+            <div className="bg-card/20 rounded-xl p-6">
+              <div className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
+                <div>
+                  <h4 className="text-base font-display font-semibold text-foreground mb-2">
+                    No white colors
+                  </h4>
+                  <p className="text-sm text-foreground/70">
+                    Avoid wearing white, as this color is reserved for the bride.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Respectful attire */}
+            <div className="bg-card/20 rounded-xl p-6">
+              <div className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
+                <div>
+                  <h4 className="text-base font-display font-semibold text-foreground mb-2">
+                    Respectful attire
+                  </h4>
+                  <p className="text-sm text-foreground/70">
+                    Kindly ensure your attire is respectful and appropriate for a religious ceremony.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
       </div>
     </motion.section>
   );
