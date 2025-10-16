@@ -114,16 +114,6 @@ const DressCodeSection = () => {
                     <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#2d2d2d' }}></div>
                   </div>
                 </div>
-                <div className="mt-6 bg-white/5 border border-primary/20 rounded-xl p-6">
-                  <p className="text-lg font-display font-bold text-foreground mb-3 text-center">
-                    Black Formal Attire
-                  </p>
-                  <p className="text-sm text-foreground text-center leading-relaxed">
-                    No jeans, no shirts, no white dress for ladies.
-                    <br />
-                    Strictly formal attire.
-                  </p>
-                </div>
               </div>
             </div>
           </motion.div>
@@ -145,7 +135,7 @@ const DressCodeSection = () => {
                 <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
                 <div>
                   <h4 className="text-base font-display font-semibold text-foreground mb-2">
-                    Ninong/Ninang: Barong / Formal Coat & Slacks / Formal Dress
+                    Ninong/Ninang: Barong / Formal Coat & Slacks / Formal Attire
                   </h4>
                   <p className="text-sm text-foreground/70">
                     Please dress elegantly for this special occasion.
@@ -179,21 +169,6 @@ const DressCodeSection = () => {
                   </h4>
                   <p className="text-sm text-foreground/70">
                     Avoid wearing white, as this color is reserved for the bride.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Respectful attire */}
-            <div className="bg-card/20 rounded-xl p-6">
-              <div className="flex items-start gap-3">
-                <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
-                <div>
-                  <h4 className="text-base font-display font-semibold text-foreground mb-2">
-                    Respectful attire
-                  </h4>
-                  <p className="text-sm text-foreground/70">
-                    Kindly ensure your attire is respectful and appropriate for a religious ceremony.
                   </p>
                 </div>
               </div>
