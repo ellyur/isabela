@@ -103,15 +103,15 @@ const Index = () => {
 
         {/* Main Content Sections */}
         <main className="relative z-10">
+          <CoverSection
+            imageUrl={cover1Image}
+            alt="Andrei & Sam Wedding Cover Image 1"
+          />
           <HeroSection />
           <InvitationRevealSection />
           <CountdownSection />
           <ImageLoop />
           <StorySection />
-          <CoverSection
-            imageUrl={cover1Image}
-            alt="Andrei & Sam Wedding Cover Image 1"
-          />
           <ScrollTriggeredTimeline />
           <VenueSection />
           <CoverSection
@@ -120,8 +120,8 @@ const Index = () => {
           />
           <DressCodeSection />
           <HashtagGiftsSection />
-          <MemorableMomentsSection />
           <RSVPSection />
+          <MemorableMomentsSection />
           <EntourageSection />
           <CoverSection
             imageUrl={cover3Image}
