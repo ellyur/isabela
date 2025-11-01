@@ -22,7 +22,7 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ timelineEvent, i }) => {
 
     const getEventDescription = (eventName: string): string => {
         const descriptions: Record<string, string> = {
-            "Guest Arrival": "We highly encourage you to arrive 30 minutes before the ceremony starts. Please be seated by 2:00 PM.",
+            "Guest Arrival": "We highly encourage you to arrive an hour before the ceremony starts. Please be seated by 2:00 PM.",
             "Wedding Ceremony": "Witness our vows and the beginning of our journey together as we exchange rings and promises at the Parish of the Holy Family.",
             "Photo Session": "Capture beautiful moments with the newlyweds and wedding party. Professional photography session for cherished memories.",
             "Cocktail Hour": "Relax and mingle with other guests while enjoying refreshing drinks and light appetizers.",
@@ -123,7 +123,7 @@ const container: React.CSSProperties = {
 
 const timelineEvents: TimelineEvent[] = [
     {
-        time: "1:30 PM",
+        time: "1:00 PM",
         event: "Guest Arrival",
         icon: Clock,
         hueA: 40,
@@ -137,14 +137,14 @@ const timelineEvents: TimelineEvent[] = [
         hueB: 40,
     },
     {
-        time: "3:30 PM",
+        time: "3:00 PM",
         event: "Photo Session", 
         icon: Camera,
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "4:30 PM",
+        time: "4:00 PM",
         event: "Cocktail Hour",
         icon: Wine,
         hueA: 40,
