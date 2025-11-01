@@ -68,17 +68,17 @@ const EntourageSection = () => {
             <h3 className="font-display italic text-lg text-black mb-4" data-testid="heading-secondary-sponsors">Secondary Sponsors</h3>
             <div className="grid grid-cols-3 gap-6">
               <div data-testid="section-candle">
-                <h4 className="font-normal italic text-xs text-black mb-1">Candle</h4>
+                <h4 className="font-bold italic text-xs text-black mb-1">Candle</h4>
                 <p className="text-black font-normal italic text-xs">Celine Kaye Potes</p>
                 <p className="text-black font-normal italic text-xs">John Paul Dominic Potes</p>
               </div>
               <div data-testid="section-veil">
-                <h4 className="font-normal italic text-xs text-black mb-1">Veil</h4>
+                <h4 className="font-bold italic text-xs text-black mb-1">Veil</h4>
                 <p className="text-black font-normal italic text-xs">Melody Collado</p>
                 <p className="text-black font-normal italic text-xs">Robin Collado</p>
               </div>
               <div data-testid="section-cord">
-                <h4 className="font-normal italic text-xs text-black mb-1">Cord</h4>
+                <h4 className="font-bold italic text-xs text-black mb-1">Cord</h4>
                 <p className="text-black font-normal italic text-xs">Maria Christina Visaya</p>
                 <p className="text-black font-normal italic text-xs">Christian Visaya</p>
               </div>
@@ -126,15 +126,15 @@ const EntourageSection = () => {
           {/* Bearers - 3 COLUMNS always */}
           <div className="grid grid-cols-3 gap-6">
             <div data-testid="section-bible-bearer">
-              <h4 className="font-normal italic text-xs text-black mb-1">Bible Bearer</h4>
+              <h4 className="font-bold italic text-xs text-black mb-1">Bible Bearer</h4>
               <p className="text-black font-normal italic text-xs">Stefan Keith Domingo</p>
             </div>
             <div data-testid="section-coin-bearer">
-              <h4 className="font-normal italic text-xs text-black mb-1">Coin Bearer</h4>
+              <h4 className="font-bold italic text-xs text-black mb-1">Coin Bearer</h4>
               <p className="text-black font-normal italic text-xs">Bryce Joaquin Cruz</p>
             </div>
             <div data-testid="section-ring-bearer">
-              <h4 className="font-normal italic text-xs text-black mb-1">Ring Bearer</h4>
+              <h4 className="font-bold italic text-xs text-black mb-1">Ring Bearer</h4>
               <p className="text-black font-normal italic text-xs">Asher Brey Collado</p>
             </div>
           </div>
