@@ -49,6 +49,9 @@ const CountdownSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={animationsEnabled ? { duration: 0.8, ease: "easeOut", delay: 0.3 } : { duration: 0 }}
         >
+          <p className="text-lg font-body text-muted-foreground mb-4 tracking-wider">
+            January 31, 2026
+          </p>
           <h2 className="text-4xl font-display text-foreground mb-2" data-testid="text-countdown-title">
             Forever starts soon
           </h2>
