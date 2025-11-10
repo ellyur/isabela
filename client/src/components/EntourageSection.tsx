@@ -154,9 +154,15 @@ const EntourageSection = () => {
             <p className="text-black font-normal text-xs">Ysabelle Bagalawis</p>
           </div>
 
+          {/* Little Groom - Single column */}
+          <div data-testid="section-little-groom">
+            <h4 className="font-display italic text-sm text-black mb-2">Little Groom</h4>
+            <p className="text-black font-normal text-xs">Jacob Blake Cruz</p>
+          </div>
+
           {/* Wedding Officiant - Single column */}
           <div data-testid="section-officiant">
-            <p className="text-black font-normal text-xs">Rev. Father Miguel A. Santillan</p>
+            <p className="text-black font-normal text-xs">Rev. Father Alain P. Manalo</p>
             <h4 className="font-display italic text-sm text-black mt-1">Wedding Officiant</h4>
           </div>
         </motion.div>
