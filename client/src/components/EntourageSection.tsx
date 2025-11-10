@@ -147,17 +147,17 @@ const EntourageSection = () => {
             <p className="text-black font-normal text-xs">Ashley Domingo</p>
           </div>
 
-          {/* Little Brides - Single column */}
-          <div data-testid="section-little-brides">
-            <h4 className="font-display italic text-sm text-black mb-2">Little Brides</h4>
-            <p className="text-black font-normal text-xs">Siana Aisheya Collado</p>
-            <p className="text-black font-normal text-xs">Ysabelle Bagalawis</p>
-          </div>
-
-          {/* Little Groom - Single column */}
-          <div data-testid="section-little-groom">
-            <h4 className="font-display italic text-sm text-black mb-2">Little Groom</h4>
-            <p className="text-black font-normal text-xs">Jacob Blake Cruz</p>
+          {/* Little Brides and Little Groom - 2 COLUMNS */}
+          <div className="grid grid-cols-2 gap-8">
+            <div data-testid="section-little-brides">
+              <h4 className="font-display italic text-sm text-black mb-2">Little Brides</h4>
+              <p className="text-black font-normal text-xs">Siana Aisheya Collado</p>
+              <p className="text-black font-normal text-xs">Ysabelle Bagalawis</p>
+            </div>
+            <div data-testid="section-little-groom">
+              <h4 className="font-display italic text-sm text-black mb-2">Little Groom</h4>
+              <p className="text-black font-normal text-xs">Jacob Blake Cruz</p>
+            </div>
           </div>
 
           {/* Wedding Officiant - Single column */}
